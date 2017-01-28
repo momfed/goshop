@@ -1,0 +1,23 @@
+{
+  "name": "goshop",
+  "version": "1.0.0",
+  "description": "a page used for shopping in albania",
+  "main": "\u001b[C\u001b[D\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[C",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momfed/goshop.git"
+  },
+  "author": "Arbi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/momfed/goshop/issues"
+  },
+  "homepage": "https://github.com/momfed/goshop#readme"
+}

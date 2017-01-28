@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo app</title>
+	<link rel="stylesheet" href="/styles/main.css" type="text/css">
+</head>
+<body>
+	
+	<div id="todo-table">
+		<form action="">
+			<input type="text" name="item" placeholder="add new item.." required/>
+			<button type="submit">Add item</button>
+		</form>
+		<ul>
+			<% for(var i=0; i < todos.length; i++){ %>
+				<li><%= todos[i].item %></li>
+			<% } %>
+		</ul>
+		<!--<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+		</ul>-->
+	</div>
+
+	<script type="text/javascript" src='/js/jquery-3.1.1.slim.js'></script>
+	<script type="text/javascript" src='/js/main.js'></script>
+</body>
+</html>

@@ -4,7 +4,10 @@
   "description": "a page used for shopping in albania",
   "main": "\u001b[C\u001b[D\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[C",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.9"
   },
   "devDependencies": {},
   "scripts": {
